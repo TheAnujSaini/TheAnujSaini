@@ -1,0 +1,55 @@
+
+.card{
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius:40px ;
+    margin: auto;
+    background:rgba(0, 0, 0, 0.2) ;
+}
+.card-header{
+    text-align: center;
+    color: 2px solid white;
+}
+.card-body{
+    height: 350px ;
+    width: 350px;
+    margin: auto;
+    
+} 
+.but{
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 59px;
+    /* background-color: chartreuse; */
+
+}
+button{
+    background-color: forestgreen;
+    color: rgb(181, 175, 186);
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-style{
+    width: 100%;
+    height: 28px;
+    border-radius: 15px;
+    padding-left: auto;
+}
+a{
+    color: white;
+}
+body{
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

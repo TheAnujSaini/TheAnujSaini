@@ -1,0 +1,24 @@
+.container {
+    width: 700px;
+    height: 300px;
+    border: 2px solid red;
+    overflow: scroll;
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+    position: sticky;
+    top: 1px;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+
+}
+#card3{
+    /* position: absolute; */
+    /* top: 45px; */
+    /* left: 50px; */
+}
