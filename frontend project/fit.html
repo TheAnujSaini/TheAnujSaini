@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Exercise Guide</title>
+  <link rel="stylesheet" href="fit.css">
+</head>
+<body>
+  <header>
+    <h1>Fitness Exercise Guide</h1>
+    <input 
+  type="text" 
+  id="searchBar" 
+  placeholder="Search for exercises..." 
+  onkeyup="searchExercises()" 
+  class="search-bar"
+/>
+
+    <div id="filter">
+      <label for="muscle-group">Filter by Muscle Group:</label>
+      <select id="muscle-group">
+        <option value="all">All</option>
+        <option value="chest">Chest</option>
+        <option value="back">Back</option>
+        <option value="abs">Abs</option>
+        <option value="arms">Arms</option>
+        <option value="legs">Legs</option>
+        <option value="cardio">Cardio</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="exercise-list">
+    <!-- Exercises will be dynamically added here -->
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fitness Guide</p>
+  </footer>
+  <button class="favorite-btn" onclick="toggleFavorite('${exercise.name}')">
+    ❤️
+  </button>
+`;
+<script src="fit.js"></script>
+</body>
+</html>

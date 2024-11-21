@@ -1,24 +1,103 @@
 .container {
-    width: 700px;
-    height: 300px;
-    border: 2px solid red;
-    overflow: scroll;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+/* overflow: scroll; */
+
 
 }
 
 .card {
     width: 200px;
-    height: 200px;
+    height: 500px;
     border: 2px solid black;
-    margin: 10px;
+    margin: 0px;
     display: inline-block;
     position: sticky;
     top: 1px;
     box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+}
+.card:hover{
+    animation: animate 4s infinite;
+    
 
 }
-#card3{
-    /* position: absolute; */
-    /* top: 45px; */
-    /* left: 50px; */
-}
+
+    @keyframes animate {
+        0%{
+            background-color: aqua;
+            transform: rotate(0deg);
+        }
+        10%
+        {
+            background-color: red;
+            transform: rotate(10deg);
+        }
+        20%
+        {
+            background-color:yellow;
+            transform:rotate(20deg) ;
+        }
+        30%
+        {
+            background-color:green;
+            transform: rotate(30deg);
+        }
+        40%
+        {
+            background-color: orangered;
+            transform: rotate(40deg);
+
+        }
+        50%
+        {
+            background-color: pink;
+            transform: rotate(50deg);
+
+        }
+        60%
+        {
+            background-color: red;
+            transform: rotate(60deg);
+
+        }
+        70%
+        {
+            background-color:blue;
+            transform: rotate(70deg);
+
+        }
+        80%
+        {
+            background-color: white;
+            transform: rotate(80deg);
+
+        }
+        90%
+        {
+            background-color: skyblue;
+            transform: rotate(90deg);
+
+        }
+        100%
+        {
+            background-color: red;
+            transform: rotate(100deg);
+
+        }
+            }
+            .notify{
+                color: black;
+                animation: notifyAnimate 5s infinite;
+            }
+            @keyframes notifyAnimate {
+                
+               0%{
+                    transform: translateX(0);
+                }
+                100%{
+                    transform: translatex(100%);
+                }
+                
+            }
+        
